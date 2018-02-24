@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenCV-2.4.11-android-sdk/OpenCV-2.4.11-android-sdk.iml" filepath="$PROJECT_DIR$/OpenCV-2.4.11-android-sdk/OpenCV-2.4.11-android-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpencvCommon/OpencvCommon.iml" filepath="$PROJECT_DIR$/OpencvCommon/OpencvCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpencvCommon-F.iml" filepath="$PROJECT_DIR$/OpencvCommon-F.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenCV-2.4.11-android-sdk/java/java.iml" filepath="$PROJECT_DIR$/OpenCV-2.4.11-android-sdk/java/java.iml" />
+    </modules>
+  </component>
+</project>
