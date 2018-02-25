@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- Timeline start -->
-    <color name="timeline_status_normal">#008000</color>  <!--green -->
-    <color name="timeline_status_semi_fatigue">#C0FFB600</color>
-    <color name="timeline_status_fatigue">#E84079</color>
-    <color name="timeline_separator">#979797</color>
-    <color name="timeline_text">#F4F4F4</color>
-    <!-- <color name="timeline_text_block_background">#181F25</color> -->
-    <color name="timeline_background">#C04A4A4A</color>
-    <!-- Timeline end -->
-
+    <!--
+    <color name="face_highlight_outter_background">#7FEC553D</color>
+    <color name="face_highlight_inner_background">#E6E93A3A</color>
+    -->
+    <color name="face_highlight_inner_background_01">#E6303F9F</color>
+    <color name="face_highlight_inner_background_02">#E64169E1</color>
+    <color name="face_highlight_inner_background_03">#E63E7B98</color>
+    <color name="face_highlight_inner_background_04">#E687CEFA</color>
+    <color name="face_highlight_inner_background_05">#E6303F9F</color>
 </resources>

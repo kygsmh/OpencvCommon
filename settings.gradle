@@ -1,2 +1,4 @@
-include ':app', ':OpencvCommon'
-include ':OpenCV-2.4.11-android-sdk:java'
+include ':app'
+
+include ':OpenCV-3.2.0-AndroidSDK'
+include ':OpencvCommon'

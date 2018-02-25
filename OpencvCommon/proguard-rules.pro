@@ -57,78 +57,43 @@
 ################################################################################
 
 
--keep class com.opencv.common.UI.OpenCVCamera.CameraViewImpl {
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+
+-keep class com.opencv.common.widget.camera.CameraViewImpl {
     public <methods>;
     public <fields>;
 }
 
--keep class com.opencv.common.UI.OpenCVCamera.IProcessCallback {
+-keep class com.opencv.common.widget.IFrameCallback {
     public <methods>;
     public <fields>;
 }
 
-
--keep class com.opencv.common.UI.common.PlayController {
+-keep class com.opencv.common.widget.DecorationView {
     public <methods>;
     public <fields>;
 }
 
--keep class com.opencv.common.UI.common.PlayController$StatusListener {
+-keep class com.opencv.common.utility.LogHelper {
     public <methods>;
     public <fields>;
 }
 
--keep class com.opencv.common.UI.Timeline.FatigueTimeEvent {
+-keep class com.opencv.common.utility.Utilities {
     public <methods>;
     public <fields>;
 }
 
--keep class com.opencv.common.UI.Timeline.FatigueTimeEventManager {
+-keep class com.opencv.common.utility.AnimationHelper {
     public <methods>;
     public <fields>;
 }
 
--keep class com.opencv.common.UI.Timeline.TimeEventManager {
+-keep class com.opencv.common.utility.AnimationHelper$AnimateCallback {
     public <methods>;
     public <fields>;
 }
-
--keep class com.opencv.common.UI.Timeline.TimeEventManager$StatusLinstener {
-    public <methods>;
-    public <fields>;
-}
-
--keep class com.opencv.common.UI.Timeline.TimelineView {
-    public <methods>;
-    public <fields>;
-}
-
-
--keep class com.opencv.common.UI.util.Log {
-    public <methods>;
-    public <fields>;
-}
-
--keep class com.opencv.common.UI.util.OrientationHelper {
-    public <methods>;
-    public <fields>;
-}
-
-
--keep class com.opencv.common.UI.util.Utils {
-    public <methods>;
-    public <fields>;
-}
-
-
--keep class com.opencv.common.UI.MainContainer {
-    public <methods>;
-    public <fields>;
-}
-
-
-
-
-
-
-

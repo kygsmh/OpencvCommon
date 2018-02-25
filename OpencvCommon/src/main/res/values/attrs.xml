@@ -2,27 +2,11 @@
 <resources>
 
 
-    <declare-styleable name="MainContainer">
-        <!--
-        <attr name="show_fps" format="boolean"/>
-        <attr name="camera_id" format="integer" >
-            <enum name="any" value="-1" />
-            <enum name="back" value="99" />
-            <enum name="front" value="98" />
-        </attr>
-        -->
-    </declare-styleable>
-
-    <declare-styleable name="CameraViewImpl">
-    </declare-styleable>
-
-    <declare-styleable name="PlayController">
-        <attr name="isPlaying" format="boolean" />
-    </declare-styleable>
-
-    <declare-styleable name="SoundSettingView">
-        <attr name="title" format="string" />
-        <attr name="subtitle" format="string" />
+    <declare-styleable name="RobotEyeView">
+        <attr name="maxCameraWidth" format="integer" />
+        <attr name="minCameraWidth" format="integer" />
+        <attr name="maxCameraHeight" format="integer" />
+        <attr name="minCameraHeight" format="integer" />
     </declare-styleable>
 
 </resources>

@@ -1,17 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
-    <!-- TimelineView -->
-    <integer name="picture_block_relative_to_timebar_height_percentage">66
-    </integer>       <!-- % -->
-    <integer name="timeseparator_relative_to_timepictureblock_height_percentage">50
-    </integer>  <!-- % -->
-    <dimen name="timeline_text_font_size">10dp</dimen>
-    <dimen name="timeline_unit_width_in_dp">10dp</dimen>
-    <dimen name="timeline_separator_width_in_dp">0.5dp</dimen>
-    <dimen name="height_main_timelineview">63dp</dimen>
-
-    <string name="camera_size_relative_to_device_long_edge">0.625</string>
-
+    <dimen name="face_highlight_inner_border">3dp</dimen>
 
 </resources>

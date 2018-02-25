@@ -1,9 +1,3 @@
 <resources>
-
-    <string name="app_name">OpencvCommon</string>
-
-    <!-- Timeline start -->
-    <string name="timebar_timeformat">HH:mm:ss</string>
-    <!-- Timeline end -->
-
+    <string name="app_name">RobotVisionSDK</string>
 </resources>
